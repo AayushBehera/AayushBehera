@@ -50,8 +50,16 @@ Crafted technical narratives and developer-focused content for a growing audienc
 ## GitHub Activity
 
 <div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/stats.svg">
+    <img src="assets/stats.svg" alt="Statistics">
+  </picture>
+</div>
+
+<br>
+
+<div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=AayushBehera&show_icons=true&count_private=true&hide_title=true&bg_color=0D1117&text_color=c9d1d9&icon_color=7C3AED&hide_border=true" height="160" alt="Stats">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AayushBehera&theme=dark&hide_border=true&background=0D1117&stroke=7C3AED&ring=7C3AED&fire=EC4899&currStreakLabel=EC4899&sideNums=c9d1d9" height="160" alt="Streak">
 </div>
 
 <div align="center">
