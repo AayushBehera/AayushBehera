@@ -44,96 +44,103 @@ These are the roles and responsibilities currently listed in my profile. Dates a
 
 ## Selected engineering work
 
-The diagrams below explain each project's documented architecture and workflow. They are deliberately labelled as system maps rather than screenshots. Repository links are provided as the source of truth for code, setup instructions, and implementation status.
+The six featured diagrams below are full-width so their architecture labels remain readable on desktop and mobile. They are original, repository-based system maps—not screenshots of running applications. Each is followed by a concise project brief, implementation focus, stack, and any relevant status or data caveat.
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <img src="assets/profile/projects/changeguard.svg" width="100%" alt="ArrowEra ChangeGuard system map: Terraform, Kubernetes, Ansible, Jenkins and CloudFormation inputs flow through normalization and risk analysis into an advisory report."/>
-      <h3><a href="https://github.com/AayushBehera/arrowera-change-guard">ArrowEra ChangeGuard</a></h3>
-      **Pre-deployment risk intelligence**
+<div align="center">
+  <img src="assets/profile/projects/changeguard.svg" width="100%" alt="ArrowEra ChangeGuard system map: Terraform, Kubernetes, Ansible, Jenkins and CloudFormation inputs flow through normalization and risk analysis into an advisory report."/>
+</div>
 
-      Reviews infrastructure changes across Terraform, Kubernetes, Ansible, Jenkins, and CloudFormation. A shared analysis pipeline produces risk findings, affected-resource context, blast-radius information, rollback guidance, and an auditable advisory brief.
+### [ArrowEra ChangeGuard](https://github.com/AayushBehera/arrowera-change-guard)
 
-      **My engineering focus:** repository-first DevOps workflows, evidence-backed analysis, risk presentation, and human-in-the-loop remediation boundaries.
+**Pre-deployment risk intelligence**
 
-      <sub>React 18 · Vite · TypeScript · FastAPI · SQLAlchemy · SQLite · LLM adapters</sub>
+Reviews infrastructure changes across Terraform, Kubernetes, Ansible, Jenkins, and CloudFormation. A shared analysis pipeline produces risk findings, affected-resource context, blast-radius information, rollback guidance, and an auditable advisory brief.
 
-      <sub>**Status:** the repository README documents release v1.4.0. Recommendations remain advisory; the tool does not autonomously approve or deploy changes.</sub>
+**Engineering focus:** repository-first DevOps workflows, evidence-backed analysis, risk presentation, and human-in-the-loop remediation boundaries.
 
-      <a href="https://github.com/AayushBehera/arrowera-change-guard">SOURCE & DOCUMENTATION ↗</a>
-    </td>
-    <td width="50%" valign="top">
-      <img src="assets/profile/projects/adbibe-reporting.svg" width="100%" alt="Adbibe AI Reporting system map: advertising platforms feed a normalized campaign data layer, Gemini-assisted analytics, and reporting and workflow modules."/>
-      <h3><a href="https://github.com/AayushBehera/report-automation">Adbibe · AI Reporting Platform</a></h3>
-      **Marketing analytics and reporting workflows**
+<sub>**Stack:** React 18 · Vite · TypeScript · FastAPI · SQLAlchemy · SQLite · LLM adapters</sub>
 
-      A multi-client reporting workspace covering campaign exploration, cross-channel performance analysis, anomaly review, AI-generated explanations, report creation, scheduled workflows, integration monitoring, and audit history.
+<sub>**Status:** the repository README documents release v1.4.0. Recommendations remain advisory; the tool does not autonomously approve or deploy changes.</sub>
 
-      **My engineering focus:** campaign analytics surfaces, reporting workflows, AI-assisted insight presentation, and the integration layer.
+---
 
-      <sub>React 19 · TypeScript · Vite · Tailwind CSS · Express · Gemini · Firebase · Recharts</sub>
+<div align="center">
+  <img src="assets/profile/projects/adbibe-reporting.svg" width="100%" alt="Adbibe AI Reporting system map: advertising platforms feed a normalized campaign data layer, Gemini-assisted analytics, and reporting and workflow modules."/>
+</div>
 
-      <sub>**Status:** development project. Its README identifies mock development data and mock integration adapters; production OAuth flows and outbound report delivery remain follow-up work.</sub>
+### [Adbibe · AI Reporting Platform](https://github.com/AayushBehera/report-automation)
 
-      <a href="https://github.com/AayushBehera/report-automation">SOURCE & DOCUMENTATION ↗</a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <img src="assets/profile/projects/sensorspine.svg" width="100%" alt="SensorSpine workflow: synthetic operational transactions and real contextual data feed forecasting, surplus and shortage classification, explainable redistribution, and outcome feedback."/>
-      <h3><a href="https://github.com/AayushBehera/sensorspine-demand-forcasting-project">SensorSpine · Demand Forecasting</a></h3>
-      **Food-service demand and surplus redistribution**
+**Marketing analytics and reporting workflows**
 
-      Runs a forecasting pipeline, compares candidate models with baselines, classifies expected shortage or surplus, and ranks redistribution options using need, urgency, quantity fit, proximity, and compatibility. The workflow records outcomes and supports walk-forward backtesting.
+A multi-client reporting workspace covering campaign exploration, cross-channel performance analysis, anomaly review, AI-generated explanations, report creation, scheduled workflows, integration monitoring, and audit history.
 
-      **Data integrity:** operational transaction rows are synthetic and explicitly labelled as such. The contextual layer uses documented HCES 2023–24 consumption data, ERA5 weather, and the Indian public-holiday calendar. Live POS transactions are not yet connected.
+**Engineering focus:** campaign analytics surfaces, reporting workflows, AI-assisted insight presentation, and the integration layer.
 
-      <sub>Python · FastAPI · SQLite · Forecast evaluation · Feature engineering</sub>
+<sub>**Stack:** React 19 · TypeScript · Vite · Tailwind CSS · Express · Gemini · Firebase · Recharts</sub>
 
-      <a href="https://github.com/AayushBehera/sensorspine-demand-forcasting-project">SOURCE, DATA NOTES & API ↗</a>
-    </td>
-    <td width="50%" valign="top">
-      <img src="assets/profile/projects/self-healing-sdn.svg" width="100%" alt="Self-Healing SDN topology and recovery sequence: Ryu receives OpenFlow telemetry, a PPO policy selects a route, and OFPFlowMod updates the data plane after a link fault."/>
-      <h3><a href="https://github.com/AayushBehera/Self-Healing-SDN-With-RL-Based-Learning">Self-Healing SDN</a></h3>
-      **Reinforcement-learning-assisted network recovery**
+<sub>**Status:** development project. Its README identifies mock development data and mock integration adapters; production OAuth flows and outbound report delivery remain follow-up work.</sub>
 
-      Implements a closed-loop fault-recovery path: a Ryu controller reads OpenFlow telemetry, detects link faults, selects a recovery action through a PPO-based agent, and issues OFPFlowMod updates to reroute traffic through a healthy path. The repository also documents event-driven and OpenFlow fast-failover baselines.
+---
 
-      **Research status:** Phase 1 recovery system and paper are marked complete in the repository; the broader multi-agent framework is planned as Phase 2.
+<div align="center">
+  <img src="assets/profile/projects/sensorspine.svg" width="100%" alt="SensorSpine workflow: synthetic operational transactions and real contextual data feed forecasting, surplus and shortage classification, explainable redistribution, and outcome feedback."/>
+</div>
 
-      <sub>Python · Ryu · OpenFlow 1.3 · Mininet · Open vSwitch · PPO</sub>
+### [SensorSpine · Demand Forecasting](https://github.com/AayushBehera/sensorspine-demand-forcasting-project)
 
-      <a href="https://github.com/AayushBehera/Self-Healing-SDN-With-RL-Based-Learning">SOURCE, EXPERIMENTS & PAPER ↗</a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <img src="assets/profile/projects/phishing-forensics.svg" width="100%" alt="Phishing Forensics architecture: Gmail content is inspected by a Manifest V3 extension, sent to an Express and Gemini analysis service, then surfaced in a Next.js security dashboard."/>
-      <h3><a href="https://github.com/AayushBehera/phishing-forensics">Phishing Forensics</a></h3>
-      **Email threat analysis and SOC visibility**
+**Food-service demand and surplus redistribution**
 
-      Combines a Manifest V3 Chrome extension, an Express analysis backend, and a Next.js security dashboard. The extension observes opened Gmail messages, forwards email content through a background service worker, and displays verdicts and suspicious-phrase highlights in context. The dashboard provides threat history, analytics, and CSV export.
+Runs a forecasting pipeline, compares candidate models with baselines, classifies expected shortage or surplus, and ranks redistribution options using need, urgency, quantity fit, proximity, and compatibility. The workflow records outcomes and supports walk-forward backtesting.
 
-      <sub>Chrome Extension · JavaScript · Express · Gemini · Next.js · SQLite / PostgreSQL adapters</sub>
+**Data integrity:** operational transaction rows are synthetic and explicitly labelled as such. The contextual layer uses documented HCES 2023–24 consumption data, ERA5 weather, and the Indian public-holiday calendar. Live POS transactions are not yet connected.
 
-      <a href="https://github.com/AayushBehera/phishing-forensics">SOURCE & SETUP ↗</a>
-    </td>
-    <td width="50%" valign="top">
-      <img src="assets/profile/projects/error-mechanism.svg" width="100%" alt="ArrowEra Error Mechanism: a stack trace is processed by 18 deterministic TypeScript rules and returned as an explained diagnosis with evidence and corrective actions."/>
-      <h3><a href="https://github.com/AayushBehera/ArrowEra-Error-mechanism">ArrowEra Error Mechanism</a></h3>
-      **Deterministic error triage and diagnosis**
+<sub>**Stack:** Python · FastAPI · SQLite · Forecast evaluation · Feature engineering</sub>
 
-      Accepts an error message or stack trace and returns a transparent diagnosis with a reasoning chain and actionable fixes. The browser and Node runtime share the same TypeScript diagnostic engine, preserving a single rules implementation.
+---
 
-      **Implementation detail:** the repository documents 18 deterministic rules. Its heuristic score is an evidence-ranking aid, not a calibrated probability. Browser history uses localStorage; server-side database persistence is intentionally deferred.
+<div align="center">
+  <img src="assets/profile/projects/self-healing-sdn.svg" width="100%" alt="Self-Healing SDN topology and recovery sequence: Ryu receives OpenFlow telemetry, a PPO policy selects a route, and OFPFlowMod updates the data plane after a link fault."/>
+</div>
 
-      <sub>React · TypeScript · Vite · Tailwind CSS · Node.js</sub>
+### [Self-Healing SDN](https://github.com/AayushBehera/Self-Healing-SDN-With-RL-Based-Learning)
 
-      <a href="https://github.com/AayushBehera/ArrowEra-Error-mechanism">SOURCE, API & TESTS ↗</a>
-    </td>
-  </tr>
-</table>
+**Reinforcement-learning-assisted network recovery**
+
+Implements a closed-loop fault-recovery path: a Ryu controller reads OpenFlow telemetry, detects link faults, selects a recovery action through a PPO-based agent, and issues OFPFlowMod updates to reroute traffic through a healthy path. The repository also documents event-driven and OpenFlow fast-failover baselines.
+
+**Research status:** Phase 1 recovery system and paper are marked complete in the repository; the broader multi-agent framework is planned as Phase 2.
+
+<sub>**Stack:** Python · Ryu · OpenFlow 1.3 · Mininet · Open vSwitch · PPO</sub>
+
+---
+
+<div align="center">
+  <img src="assets/profile/projects/phishing-forensics.svg" width="100%" alt="Phishing Forensics architecture: Gmail content is inspected by a Manifest V3 extension, sent to an Express and Gemini analysis service, then surfaced in a Next.js security dashboard."/>
+</div>
+
+### [Phishing Forensics](https://github.com/AayushBehera/phishing-forensics)
+
+**Email threat analysis and SOC visibility**
+
+Combines a Manifest V3 Chrome extension, an Express analysis backend, and a Next.js security dashboard. The extension observes opened Gmail messages, forwards email content through a background service worker, and displays verdicts and suspicious-phrase highlights in context. The dashboard provides threat history, analytics, and CSV export.
+
+<sub>**Stack:** Chrome Extension · JavaScript · Express · Gemini · Next.js · SQLite / PostgreSQL adapters</sub>
+
+---
+
+<div align="center">
+  <img src="assets/profile/projects/error-mechanism.svg" width="100%" alt="ArrowEra Error Mechanism: a stack trace is processed by 18 deterministic TypeScript rules and returned as an explained diagnosis with evidence and corrective actions."/>
+</div>
+
+### [ArrowEra Error Mechanism](https://github.com/AayushBehera/ArrowEra-Error-mechanism)
+
+**Deterministic error triage and diagnosis**
+
+Accepts an error message or stack trace and returns a transparent diagnosis with a reasoning chain and actionable fixes. The browser and Node runtime share the same TypeScript diagnostic engine, preserving a single rules implementation.
+
+**Implementation detail:** the repository documents 18 deterministic rules. Its heuristic score is an evidence-ranking aid, not a calibrated probability. Browser history uses localStorage; server-side database persistence is intentionally deferred.
+
+<sub>**Stack:** React · TypeScript · Vite · Tailwind CSS · Node.js</sub>
 
 ## Open-source contributions
 
