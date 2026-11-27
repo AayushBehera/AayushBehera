@@ -18,7 +18,7 @@
 <text x="64" y="283" fill="#96A3B8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" letter-spacing=".6">PRODUCT ENGINEERING  ·  DEVELOPER TOOLING  ·  APPLIED AI</text>
 <g font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700">
  <rect x="62" y="325" width="152" height="36" rx="9" fill="#262147" stroke="#A78BFA" stroke-opacity=".75"/><text x="82" y="348" fill="#E9D5FF">FRONTEND SYSTEMS</text>
- <rect x="225" y="325" width="146" height="36" rx="9" fill="#142C40" stroke="#67E8F9" stroke-opacity=".6"/><text x="245" y="348" fill="#CFFAFE">BACKEND & APIs</text>
+ <rect x="225" y="325" width="146" height="36" rx="9" fill="#142C40" stroke="#67E8F9" stroke-opacity=".6"/><text x="245" y="348" fill="#CFFAFE">BACKEND &amp; APIs</text>
  <rect x="382" y="325" width="124" height="36" rx="9" fill="#302333" stroke="#FDA4AF" stroke-opacity=".6"/><text x="400" y="348" fill="#FFE4E6">AI WORKFLOWS</text>
 </g>
 <g transform="translate(770 75)" font-family="Inter,Segoe UI,Arial,sans-serif">
