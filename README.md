@@ -1,165 +1,175 @@
 <!--
-  Aayush Behera — GitHub profile
-  Visual direction: indie engineering studio / pixel-illustrated control room.
-  Assets in assets/visual are original SVG artwork created for this profile.
+  Aayush Behera | Engineering portfolio
+  Visual system: Orbit / Ink / Violet / Cyan
+  All profile graphics are original, static SVGs in assets/profile/.
+  Project visuals are repository-based system diagrams, not application screenshots.
 -->
 
 <div align="center">
-  <img src="assets/visual/hero-dashboard.svg" width="100%" alt="Aayush Behera — an illustrated engineering dashboard with a terminal, orbit details and an original pixel-art mascot"/>
+  <img src="assets/profile/cover.svg" width="100%" alt="Aayush Behera — full-stack engineer and product builder. The banner maps interfaces, services, and systems in an illustrated engineering workspace."/>
 </div>
 
 <div align="center">
   <a href="https://github.com/AayushBehera?tab=repositories">PROJECT ARCHIVE</a>
-  &nbsp; ◇ &nbsp;
+  &nbsp; · &nbsp;
   <a href="https://in.linkedin.com/in/aayush-behera-203928371">LINKEDIN</a>
-  &nbsp; ◇ &nbsp;
+  &nbsp; · &nbsp;
   <a href="https://github.com/AayushBehera">GITHUB</a>
   <br/>
-  <sub>Independent builder's log · Interface craft × systems thinking × applied AI</sub>
+  <sub>Product engineering · Developer tooling · Applied AI · Infrastructure</sub>
 </div>
 
 ---
 
-<table>
-  <tr>
-    <td width="68%" valign="top">
-      <h2>01 / The builder</h2>
-      I'm **Aayush**, a frontend and full-stack engineer interested in the space between thoughtful interface design and the systems that make products work.
+## Profile
 
-      I work across product interfaces, backend integrations, developer tools and applied AI. I care about visual detail, clear architecture, and software that behaves as well as it looks.
+I'm Aayush Behera, a full-stack engineer focused on building useful product interfaces and the backend systems behind them. My work spans dashboard and workflow design, API integration, developer tooling, data-driven applications, and applied AI.
 
-      <br/>
-      <strong>Design instinct:</strong> crisp interfaces, strong hierarchy, useful motion, and a little personality.
-    </td>
-    <td width="32%" align="center" valign="middle">
-      <img src="assets/visual/byte-fox.svg" width="104" alt="Byte Fox pixel companion"/>
-      <br/>
-      <sub><strong>BYTE FOX</strong></sub>
-      <br/>
-      <sub>Curious by design.</sub>
-    </td>
-  </tr>
-</table>
+I approach projects from both sides: the user experience needs to be clear, and the underlying implementation needs to be understandable, testable, and honest about its limits.
 
-<p align="center">
-  <img src="assets/visual/patch-bot.svg" width="54" alt="Patch Bot pixel mascot"/>
-  <img src="assets/visual/glitch-sprite.svg" width="54" alt="Glitch Sprite pixel mascot"/>
-  <img src="assets/visual/sprout-owl.svg" width="54" alt="Sprout Owl pixel mascot"/>
-  <br/>
-  <sub>THE LITTLE CREW · DESIGN DETAILS WITH A PURPOSE</sub>
-</p>
+<div align="center">
+  <img src="assets/profile/capabilities.svg" width="100%" alt="Capability map connecting product interfaces, backend and data, AI and intelligence, and infrastructure and reliability to public project evidence."/>
+</div>
 
-## 02 / Featured builds
+## Experience
 
-A few projects that represent the range of problems I like working on.
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <img src="assets/visual/patch-bot.svg" width="64" align="right" alt="Patch Bot"/>
-      <sub>01 — DEVELOPER TOOLING</sub>
-      <h3><a href="https://github.com/AayushBehera/ArrowEra-Error-mechanism">ArrowEra Error Mechanism</a></h3>
-      A diagnostic workbench for stack traces: deterministic analysis, transparent reasoning paths and actionable fixes.
-
-      <sub>React · TypeScript · Vite · Node.js</sub>
-      <br/><br/>
-      <a href="https://github.com/AayushBehera/ArrowEra-Error-mechanism">VIEW SOURCE ↗</a>
-    </td>
-    <td width="50%" valign="top">
-      <img src="assets/visual/glitch-sprite.svg" width="64" align="right" alt="Glitch Sprite"/>
-      <sub>02 — SECURITY ENGINEERING</sub>
-      <h3><a href="https://github.com/AayushBehera/phishing-forensics">Phishing Forensics</a></h3>
-      An email threat-analysis workflow linking a Chrome extension, analysis backend and security operations dashboard.
-
-      <sub>Next.js · Express · Gemini API · Chrome Extension</sub>
-      <br/><br/>
-      <a href="https://github.com/AayushBehera/phishing-forensics">VIEW SOURCE ↗</a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <img src="assets/visual/sprout-owl.svg" width="64" align="right" alt="Sprout Owl"/>
-      <sub>03 — WEB ARCHITECTURE</sub>
-      <h3><a href="https://github.com/AayushBehera/ArrowERA-CMS">ArrowERA CMS</a></h3>
-      A modern CMS project exploring an Astro and TypeScript architecture with serverless-oriented components.
-
-      <sub>Astro · TypeScript · Cloudflare-compatible design</sub>
-      <br/><br/>
-      <a href="https://github.com/AayushBehera/ArrowERA-CMS">VIEW SOURCE ↗</a>
-    </td>
-    <td width="50%" valign="top">
-      <img src="assets/visual/byte-fox.svg" width="64" align="right" alt="Byte Fox"/>
-      <sub>04 — NETWORKING RESEARCH</sub>
-      <h3><a href="https://github.com/AayushBehera/Self-Healing-SDN-With-RL-Based-Learning">Self-Healing SDN</a></h3>
-      A research implementation for telemetry-driven fault recovery and traffic rerouting in a software-defined network.
-
-      <sub>Python · Ryu · OpenFlow · Mininet · PPO</sub>
-      <br/><br/>
-      <a href="https://github.com/AayushBehera/Self-Healing-SDN-With-RL-Based-Learning">VIEW SOURCE ↗</a>
-    </td>
-  </tr>
-</table>
-
-<p align="center">
-  <sub>✳ &nbsp; EXPERIMENTS, ITERATIONS AND OPEN-SOURCE WORK LIVE IN THE <a href="https://github.com/AayushBehera?tab=repositories">FULL REPOSITORY ARCHIVE</a> &nbsp; ✳</sub>
-</p>
-
----
-
-## 03 / Engineering toolkit
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <strong>◈ INTERFACE & EXPERIENCE</strong><br/>
-      React · Next.js · TypeScript · JavaScript · HTML · CSS · Tailwind CSS · Three.js
-    </td>
-    <td width="50%" valign="top">
-      <strong>⌘ BACKEND & DATA</strong><br/>
-      Node.js · Python · FastAPI · REST APIs · PostgreSQL · SQLite
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <strong>✳ APPLIED AI</strong><br/>
-      LLM integrations · Ollama · OpenAI API · RAG concepts · workflow automation
-    </td>
-    <td width="50%" valign="top">
-      <strong>⚙ SYSTEMS & DELIVERY</strong><br/>
-      Git · GitHub Actions · Docker · Linux · Vite
-    </td>
-  </tr>
-</table>
-
-## 04 / Experience log
-
-| Team | Role | Focus |
+| Organisation | Role | Scope of work |
 |---|---|---|
-| **Chart Sentinel** | Contract Web Developer | Trading dashboards and analytics interfaces |
-| **Sandbox Scholars** | Frontend Developer · Contract | Responsive frontend and reusable UI components |
-| **Ageix Partners** | Web Analytics Developer · Contract | Analytics integrations and data visualization |
+| **Chart Sentinel** | Contract Web Developer | Trading-intelligence dashboard interfaces, real-time analytics views, and product-facing UI work |
+| **Sandbox Scholars** | Frontend Developer · Contract | Responsive frontend experiences and reusable component work for an education platform |
+| **Ageix Partners** | Web Analytics Developer · Contract | Analytics integrations and data-visualisation layers for business reporting |
 | **The Failure Story** | Content Writer | Technical narratives and developer-focused content |
 
-<sub>Dates and quantified outcomes are intentionally omitted until they can be verified and published.</sub>
+These are the roles and responsibilities currently listed in my profile. Dates and quantified outcomes are not shown because I do not have verified public date ranges or impact figures to publish.
 
-## 05 / Outside the interface
+## Selected engineering work
 
-<div align="center">
-  <img src="assets/visual/sprout-owl.svg" width="68" alt="Sprout Owl pixel companion"/>
-  <img src="assets/visual/byte-fox.svg" width="68" alt="Byte Fox pixel companion"/>
-  <img src="assets/visual/patch-bot.svg" width="68" alt="Patch Bot pixel companion"/>
-</div>
+The diagrams below explain each project's documented architecture and workflow. They are deliberately labelled as system maps rather than screenshots. Repository links are provided as the source of truth for code, setup instructions, and implementation status.
 
-I enjoy exploring the details that make software feel considered: clear interaction patterns, useful developer experiences, resilient integrations and playful visual systems that do not get in the way of the work.
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <img src="assets/profile/projects/changeguard.svg" width="100%" alt="ArrowEra ChangeGuard system map: Terraform, Kubernetes, Ansible, Jenkins and CloudFormation inputs flow through normalization and risk analysis into an advisory report."/>
+      <h3><a href="https://github.com/AayushBehera/arrowera-change-guard">ArrowEra ChangeGuard</a></h3>
+      **Pre-deployment risk intelligence**
+
+      Reviews infrastructure changes across Terraform, Kubernetes, Ansible, Jenkins, and CloudFormation. A shared analysis pipeline produces risk findings, affected-resource context, blast-radius information, rollback guidance, and an auditable advisory brief.
+
+      **My engineering focus:** repository-first DevOps workflows, evidence-backed analysis, risk presentation, and human-in-the-loop remediation boundaries.
+
+      <sub>React 18 · Vite · TypeScript · FastAPI · SQLAlchemy · SQLite · LLM adapters</sub>
+
+      <sub>**Status:** the repository README documents release v1.4.0. Recommendations remain advisory; the tool does not autonomously approve or deploy changes.</sub>
+
+      <a href="https://github.com/AayushBehera/arrowera-change-guard">SOURCE & DOCUMENTATION ↗</a>
+    </td>
+    <td width="50%" valign="top">
+      <img src="assets/profile/projects/adbibe-reporting.svg" width="100%" alt="Adbibe AI Reporting system map: advertising platforms feed a normalized campaign data layer, Gemini-assisted analytics, and reporting and workflow modules."/>
+      <h3><a href="https://github.com/AayushBehera/report-automation">Adbibe · AI Reporting Platform</a></h3>
+      **Marketing analytics and reporting workflows**
+
+      A multi-client reporting workspace covering campaign exploration, cross-channel performance analysis, anomaly review, AI-generated explanations, report creation, scheduled workflows, integration monitoring, and audit history.
+
+      **My engineering focus:** campaign analytics surfaces, reporting workflows, AI-assisted insight presentation, and the integration layer.
+
+      <sub>React 19 · TypeScript · Vite · Tailwind CSS · Express · Gemini · Firebase · Recharts</sub>
+
+      <sub>**Status:** development project. Its README identifies mock development data and mock integration adapters; production OAuth flows and outbound report delivery remain follow-up work.</sub>
+
+      <a href="https://github.com/AayushBehera/report-automation">SOURCE & DOCUMENTATION ↗</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <img src="assets/profile/projects/sensorspine.svg" width="100%" alt="SensorSpine workflow: synthetic operational transactions and real contextual data feed forecasting, surplus and shortage classification, explainable redistribution, and outcome feedback."/>
+      <h3><a href="https://github.com/AayushBehera/sensorspine-demand-forcasting-project">SensorSpine · Demand Forecasting</a></h3>
+      **Food-service demand and surplus redistribution**
+
+      Runs a forecasting pipeline, compares candidate models with baselines, classifies expected shortage or surplus, and ranks redistribution options using need, urgency, quantity fit, proximity, and compatibility. The workflow records outcomes and supports walk-forward backtesting.
+
+      **Data integrity:** operational transaction rows are synthetic and explicitly labelled as such. The contextual layer uses documented HCES 2023–24 consumption data, ERA5 weather, and the Indian public-holiday calendar. Live POS transactions are not yet connected.
+
+      <sub>Python · FastAPI · SQLite · Forecast evaluation · Feature engineering</sub>
+
+      <a href="https://github.com/AayushBehera/sensorspine-demand-forcasting-project">SOURCE, DATA NOTES & API ↗</a>
+    </td>
+    <td width="50%" valign="top">
+      <img src="assets/profile/projects/self-healing-sdn.svg" width="100%" alt="Self-Healing SDN topology and recovery sequence: Ryu receives OpenFlow telemetry, a PPO policy selects a route, and OFPFlowMod updates the data plane after a link fault."/>
+      <h3><a href="https://github.com/AayushBehera/Self-Healing-SDN-With-RL-Based-Learning">Self-Healing SDN</a></h3>
+      **Reinforcement-learning-assisted network recovery**
+
+      Implements a closed-loop fault-recovery path: a Ryu controller reads OpenFlow telemetry, detects link faults, selects a recovery action through a PPO-based agent, and issues OFPFlowMod updates to reroute traffic through a healthy path. The repository also documents event-driven and OpenFlow fast-failover baselines.
+
+      **Research status:** Phase 1 recovery system and paper are marked complete in the repository; the broader multi-agent framework is planned as Phase 2.
+
+      <sub>Python · Ryu · OpenFlow 1.3 · Mininet · Open vSwitch · PPO</sub>
+
+      <a href="https://github.com/AayushBehera/Self-Healing-SDN-With-RL-Based-Learning">SOURCE, EXPERIMENTS & PAPER ↗</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <img src="assets/profile/projects/phishing-forensics.svg" width="100%" alt="Phishing Forensics architecture: Gmail content is inspected by a Manifest V3 extension, sent to an Express and Gemini analysis service, then surfaced in a Next.js security dashboard."/>
+      <h3><a href="https://github.com/AayushBehera/phishing-forensics">Phishing Forensics</a></h3>
+      **Email threat analysis and SOC visibility**
+
+      Combines a Manifest V3 Chrome extension, an Express analysis backend, and a Next.js security dashboard. The extension observes opened Gmail messages, forwards email content through a background service worker, and displays verdicts and suspicious-phrase highlights in context. The dashboard provides threat history, analytics, and CSV export.
+
+      <sub>Chrome Extension · JavaScript · Express · Gemini · Next.js · SQLite / PostgreSQL adapters</sub>
+
+      <a href="https://github.com/AayushBehera/phishing-forensics">SOURCE & SETUP ↗</a>
+    </td>
+    <td width="50%" valign="top">
+      <img src="assets/profile/projects/error-mechanism.svg" width="100%" alt="ArrowEra Error Mechanism: a stack trace is processed by 18 deterministic TypeScript rules and returned as an explained diagnosis with evidence and corrective actions."/>
+      <h3><a href="https://github.com/AayushBehera/ArrowEra-Error-mechanism">ArrowEra Error Mechanism</a></h3>
+      **Deterministic error triage and diagnosis**
+
+      Accepts an error message or stack trace and returns a transparent diagnosis with a reasoning chain and actionable fixes. The browser and Node runtime share the same TypeScript diagnostic engine, preserving a single rules implementation.
+
+      **Implementation detail:** the repository documents 18 deterministic rules. Its heuristic score is an evidence-ranking aid, not a calibrated probability. Browser history uses localStorage; server-side database persistence is intentionally deferred.
+
+      <sub>React · TypeScript · Vite · Tailwind CSS · Node.js</sub>
+
+      <a href="https://github.com/AayushBehera/ArrowEra-Error-mechanism">SOURCE, API & TESTS ↗</a>
+    </td>
+  </tr>
+</table>
+
+## Open-source contributions
+
+Two merged changes in **claude-mem** focus on reliable transcript processing and durable state:
+
+| Contribution | What changed | Status |
+|---|---|---|
+| [PR #4192](https://github.com/thedotmack/claude-mem/pull/4192) · Transcript checkpoint handling | Separated the live read cursor from the durable restart checkpoint, preserving incomplete JSONL records and byte-accurate offsets, including multibyte text | **Merged · 1 Oct 2026** |
+| [PR #4193](https://github.com/thedotmack/claude-mem/pull/4193) · Atomic transcript state | Moved watch-state writes to the repository's atomic JSON writer and added regression coverage | **Merged · 1 Oct 2026** |
+
+**Aider contributions under review:** [PR #5602](https://github.com/Aider-AI/aider/pull/5602) covers CI, Docker, and compatibility hardening; [PR #5750](https://github.com/Aider-AI/aider/pull/5750) covers the PyPI version matrix. Both were open when this profile was revised and are not presented as merged work.
+
+## Technical toolkit
+
+| Area | Technologies documented in my public projects |
+|---|---|
+| **Frontend & product UI** | React, Next.js, TypeScript, JavaScript, Vite, Tailwind CSS |
+| **Backend & APIs** | Node.js, Express, Python, FastAPI, REST APIs |
+| **Data & analytics** | SQLite, SQLAlchemy, PostgreSQL adapters, feature engineering, forecasting evaluation |
+| **AI integrations** | Gemini, Ollama, OpenAI-compatible APIs, LLM-assisted analysis |
+| **Infrastructure & research** | Docker, GitHub Actions, Trivy, Linux, Ryu, OpenFlow, Mininet, Stable-Baselines3 / PPO |
+
+## Additional projects
+
+- [MindFrame](https://github.com/AayushBehera/MindFrame-A-CBT-Inspired-Cognitive-Distortion-Analyzer-using-Python-and-SQL) — a Python and SQLite mini-project for recording thoughts, tagging CBT-inspired cognitive distortions, saving reframed thoughts, and inspecting patterns with SQL.
+- [ArrowERA CMS](https://github.com/AayushBehera/ArrowERA-CMS) — an Astro and TypeScript CMS monorepo exploring serverless-oriented database, authentication, and plugin packages.
+- [ArrowEra Code AI](https://github.com/AayushBehera/ArrowEra-Code-AI) — an ongoing AI tooling direction documented around local/cloud model providers, code workflows, and a unified interface. See the repository for the current implementation scope.
 
 ---
 
 <div align="center">
-  <strong>LET'S BUILD SOMETHING THAT WORKS — AND FEELS GOOD TO USE.</strong>
+  <strong>BUILDING SOFTWARE THAT IS USEFUL, UNDERSTANDABLE, AND WELL-DESIGNED.</strong>
   <br/><br/>
-  <a href="https://github.com/AayushBehera?tab=repositories">Browse projects</a>
+  <a href="https://github.com/AayushBehera?tab=repositories">Explore all repositories</a>
   &nbsp; · &nbsp;
   <a href="https://in.linkedin.com/in/aayush-behera-203928371">Connect on LinkedIn</a>
   <br/><br/>
-  <sub>Profile art & layout crafted for Aayush Behera · SVG pixel crew · v2.0</sub>
+  <sub>Static SVG illustrations · Evidence-linked project cards · No fabricated activity metrics</sub>
 </div>
