@@ -8,7 +8,7 @@ This repository's profile README uses a shared vector system rather than unrelat
 |---|---:|---:|---|---|
 | `assets/profile/cover.svg` | 1400 × 460 | 3.043:1 | Full-width hero | 60 px left inset; right-side system panel; static vector artwork |
 | `assets/profile/capabilities.svg` | 1200 × 350 | 3.429:1 | Full-width capability map | Four equal capability cards with 18 px outer card corner radius |
-| Project SVGs | 960 × 540 | 16:9 | Two-column project table | Consistent title baseline, left accent rail, inner frame, 22 px outer inset |
+| Project SVGs | 960 × 540 | 16:9 | Full-width, single-column README rows | Each diagram is rendered at 100% width so its labels remain legible; consistent title baseline, left accent rail, inner frame, 22 px outer inset |
 
 ### Project artwork
 
@@ -41,7 +41,7 @@ All project SVGs are **system diagrams**, not screenshots of running software. N
 - Font stack: `Inter, Segoe UI, Arial, sans-serif`; code labels use a monospace stack.
 - The base spacing rhythm is 8 px.
 - Cover: 60 px left title inset; key title at y=165; role line at y=209; supporting line at y=254.
-- Project panels: outer border inset 22 px; content inset 54 px; title baseline y=101; section labels at y=59; content begins at y=165; consistent footer at y=484.
+- Project panels: each image is displayed as a full-width row (not a two-column thumbnail). At a typical README content width of 850–1,000 px, the 960 × 540 viewBox scales to approximately 0.89–1.04×, retaining near-native text size. Outer border inset 22 px; content inset 54 px; title baseline y=101; section labels at y=59; content begins at y=165; consistent footer at y=484.
 - Images use fixed SVG `viewBox` values and preserve aspect ratio when rendered with `width="100%"`.
 
 ## Accessibility and rendering
