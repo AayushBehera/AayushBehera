@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="t d">
+<title id="t">Self-Healing SDN</title><desc id="d">OpenFlow telemetry drives controller decisions and data-plane rerouting.. Diagrammatic project map, not a live application screenshot.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0A1020"/><stop offset="1" stop-color="#19213B"/></linearGradient><pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#94A3B8" stroke-opacity=".09"/></pattern></defs>
+<rect width="960" height="540" rx="24" fill="url(#bg)"/><rect width="960" height="540" rx="24" fill="url(#grid)"/><rect x="22" y="22" width="916" height="496" rx="18" fill="none" stroke="#53627C" stroke-opacity=".6"/><rect x="22" y="22" width="6" height="496" rx="3" fill="#E11D48"/>
+<text x="54" y="59" fill="#FECDD3" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="2">NETWORKING RESEARCH / CLOSED-LOOP RECOVERY</text><text x="54" y="101" fill="#F8FAFC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="31" font-weight="750">Self-Healing SDN</text><text x="54" y="128" fill="#A9B7CC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14">OpenFlow telemetry drives controller decisions and data-plane rerouting.</text>
+<g font-family="Inter,Segoe UI,Arial,sans-serif">
+ <text x="56" y="165" fill="#FECDD3" font-size="11" font-weight="700" letter-spacing="1.2">MININET / OPEN VSWITCH TOPOLOGY</text>
+ <rect x="54" y="181" width="438" height="258" rx="12" fill="#111A2C" stroke="#5A5369"/>
+ <rect x="188" y="196" width="170" height="48" rx="9" fill="#2A2239" stroke="#B48AD8"/><text x="273" y="216" fill="#F3E8FF" font-size="12" font-weight="700" text-anchor="middle">Ryu Controller</text><text x="273" y="232" fill="#C8B6DA" font-size="9" text-anchor="middle">OpenFlow 1.3 · PPO policy</text>
+ <path d="M273 244V263M145 278L273 263L400 278" stroke="#A78BFA" stroke-width="1.5" stroke-dasharray="4 5" fill="none"/>
+ <g>
+  <rect x="86" y="300" width="116" height="66" rx="10" fill="#1C2C43" stroke="#67E8F9"/><rect x="99" y="313" width="20" height="20" rx="4" fill="#0E7490"/><path d="M103 319h12M103 325h12" stroke="#DFFBFF" stroke-width="1.5"/><text x="130" y="326" fill="#DFFBFF" font-size="12" font-weight="700">Switch A</text><text x="103" y="350" fill="#9FB6C8" font-size="10">OVS</text>
+  <rect x="336" y="300" width="116" height="66" rx="10" fill="#1C2C43" stroke="#67E8F9"/><rect x="349" y="313" width="20" height="20" rx="4" fill="#0E7490"/><path d="M353 319h12M353 325h12" stroke="#DFFBFF" stroke-width="1.5"/><text x="380" y="326" fill="#DFFBFF" font-size="12" font-weight="700">Switch B</text><text x="353" y="350" fill="#9FB6C8" font-size="10">OVS</text>
+  <rect x="211" y="374" width="116" height="52" rx="10" fill="#1C2C43" stroke="#67E8F9"/><rect x="224" y="386" width="20" height="20" rx="4" fill="#0E7490"/><path d="M228 392h12M228 398h12" stroke="#DFFBFF" stroke-width="1.5"/><text x="255" y="399" fill="#DFFBFF" font-size="12" font-weight="700">Switch C</text>
+ </g>
+ <path d="M202 329H336" stroke="#67E8F9" stroke-width="3" fill="none"/><path d="M202 329H336" stroke="#A5F3FC" stroke-width="1" stroke-dasharray="4 5"/>
+ <path d="M145 366L211 399" stroke="#86EFAC" stroke-width="4" fill="none"/><path d="M145 366L211 399" stroke="#D1FAE5" stroke-width="1.2" stroke-dasharray="3 4"/>
+ <path d="M394 366L327 399" stroke="#FB7185" stroke-width="3" stroke-dasharray="7 6" fill="none"/><path d="M389 377l10-15M389 362l10 15" stroke="#FB7185" stroke-width="3"/>
+ <rect x="343" y="382" width="108" height="25" rx="6" fill="#3A1B2A"/><text x="397" y="399" fill="#FECDD3" text-anchor="middle" font-size="9" font-weight="700">LINK FAILURE</text>
+ <text x="56" y="459" fill="#A6B2C5" font-size="9">Cyan = healthy path · coral dashed = failed link · green = alternate route</text>
+ <path d="M506 304H540" stroke="#FDA4AF" stroke-width="2" stroke-dasharray="4 4"/><path d="M532 296l9 8-9 8" fill="none" stroke="#FDA4AF" stroke-width="2"/>
+ <text x="554" y="165" fill="#FECDD3" font-size="11" font-weight="700" letter-spacing="1.2">RECOVERY SEQUENCE</text>
+ <g>
+  <rect x="552" y="181" width="352" height="52" rx="9" fill="#2A1D2B" stroke="#A75567"/><circle cx="576" cy="207" r="12" fill="#9F3455"/><text x="576" y="211" fill="#FFF1F2" font-size="11" font-weight="700" text-anchor="middle">1</text><text x="600" y="204" fill="#FFE4E6" font-size="12" font-weight="700">Detect link fault</text><text x="600" y="220" fill="#D8AEB9" font-size="10">Controller receives OpenFlow events / telemetry</text>
+  <path d="M728 234v12" stroke="#FDA4AF" stroke-width="2"/><path d="M722 240l6 7 6-7" fill="none" stroke="#FDA4AF" stroke-width="2"/>
+  <rect x="552" y="250" width="352" height="52" rx="9" fill="#25223B" stroke="#8272C1"/><circle cx="576" cy="276" r="12" fill="#6956A8"/><text x="576" y="280" fill="#F3E8FF" font-size="11" font-weight="700" text-anchor="middle">2</text><text x="600" y="273" fill="#EDE9FE" font-size="12" font-weight="700">Select recovery action</text><text x="600" y="289" fill="#C3B9E6" font-size="10">PPO decision agent selects a reroute</text>
+  <path d="M728 303v12" stroke="#A78BFA" stroke-width="2"/><path d="M722 309l6 7 6-7" fill="none" stroke="#A78BFA" stroke-width="2"/>
+  <rect x="552" y="319" width="352" height="52" rx="9" fill="#15303A" stroke="#38889A"/><circle cx="576" cy="345" r="12" fill="#14758B"/><text x="576" y="349" fill="#E0FBFF" font-size="11" font-weight="700" text-anchor="middle">3</text><text x="600" y="342" fill="#D9FBFF" font-size="12" font-weight="700">Program the data plane</text><text x="600" y="358" fill="#A9D8E0" font-size="10">Ryu sends OFPFlowMod to update forwarding</text>
+  <rect x="552" y="386" width="352" height="42" rx="8" fill="#17352E" stroke="#3B8868"/><text x="570" y="412" fill="#BBF7D0" font-size="11" font-weight="700">PHASE 1 IMPLEMENTED</text><text x="730" y="412" fill="#A6CBB8" font-size="10">Phase 2 framework planned</text>
+ </g>
+ <rect x="552" y="440" width="352" height="24" rx="6" fill="#18253B"/><text x="566" y="456" fill="#A9BBD1" font-size="9">Ryu 4.34 · Mininet · Open vSwitch · PPO / Stable-Baselines3</text>
+</g>
+<path d="M54 484H906" stroke="#526079" stroke-opacity=".55"/><text x="54" y="504" fill="#7D8BA4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="10" letter-spacing="1.2">REPOSITORY-DOCUMENTED SYSTEM MAP · ILLUSTRATIVE, NOT A PRODUCT SCREENSHOT</text>
+</svg>
