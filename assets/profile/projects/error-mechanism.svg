@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="t d">
+<title id="t">ArrowEra Error Mechanism</title><desc id="d">Stack traces are matched against explicit rules and returned with explainable fixes.. Diagrammatic project map, not a live application screenshot.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0A1020"/><stop offset="1" stop-color="#19213B"/></linearGradient><pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#94A3B8" stroke-opacity=".09"/></pattern></defs>
+<rect width="960" height="540" rx="24" fill="url(#bg)"/><rect width="960" height="540" rx="24" fill="url(#grid)"/><rect x="22" y="22" width="916" height="496" rx="18" fill="none" stroke="#53627C" stroke-opacity=".6"/><rect x="22" y="22" width="6" height="496" rx="3" fill="#2563EB"/>
+<text x="54" y="59" fill="#BFDBFE" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="2">DEVELOPER EXPERIENCE / DETERMINISTIC DIAGNOSTICS</text><text x="54" y="101" fill="#F8FAFC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="31" font-weight="750">ArrowEra Error Mechanism</text><text x="54" y="128" fill="#A9B7CC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14">Stack traces are matched against explicit rules and returned with explainable fixes.</text>
+<g font-family="Inter,Segoe UI,Arial,sans-serif">
+ <text x="54" y="165" fill="#BFDBFE" font-size="11" font-weight="700" letter-spacing="1.2">01 / INPUT</text>
+ <rect x="54" y="182" width="244" height="246" rx="12" fill="#131F33" stroke="#5476A6"/>
+ <rect x="70" y="199" width="212" height="29" rx="6" fill="#1D2F4B"/><circle cx="83" cy="213" r="4" fill="#F87171"/><circle cx="97" cy="213" r="4" fill="#FBBF24"/><circle cx="111" cy="213" r="4" fill="#86EFAC"/><text x="127" y="217" fill="#BFD6F0" font-family="monospace" font-size="9">stack-trace.txt</text>
+ <g font-family="monospace" font-size="10"><text x="72" y="257" fill="#7DD3FC">TypeError</text><text x="72" y="277" fill="#CBD5E1">Cannot read properties</text><text x="72" y="297" fill="#CBD5E1">of undefined</text><text x="72" y="327" fill="#8196B4">at renderPanel()</text><text x="72" y="347" fill="#8196B4">at Dashboard.tsx:42</text></g>
+ <rect x="70" y="375" width="212" height="34" rx="7" fill="#1F3A58"/><text x="176" y="396" fill="#DCEBFF" font-size="11" font-weight="700" text-anchor="middle">POST /api/analyze</text>
+ <path d="M304 305H338" stroke="#93C5FD" stroke-width="2" stroke-dasharray="4 4"/><path d="M330 297l9 8-9 8" fill="none" stroke="#93C5FD" stroke-width="2"/>
+ <text x="350" y="165" fill="#BFDBFE" font-size="11" font-weight="700" letter-spacing="1.2">02 / RULE ENGINE</text>
+ <rect x="346" y="182" width="246" height="246" rx="12" fill="#18253B" stroke="#5279A2"/>
+ <rect x="364" y="202" width="210" height="46" rx="8" fill="#203B5B"/><text x="382" y="222" fill="#E0EDFF" font-size="12" font-weight="700">Deterministic TypeScript</text><text x="382" y="238" fill="#AFC7E5" font-size="10">Shared browser + Node runtime</text>
+ <g>
+  <rect x="364" y="264" width="62" height="52" rx="7" fill="#263C59"/><text x="395" y="286" fill="#BFDBFE" font-size="15" text-anchor="middle" font-weight="700">01</text><text x="395" y="302" fill="#A9BEDA" font-size="9" text-anchor="middle">Match</text>
+  <rect x="436" y="264" width="62" height="52" rx="7" fill="#263C59"/><text x="467" y="286" fill="#BFDBFE" font-size="15" text-anchor="middle" font-weight="700">02</text><text x="467" y="302" fill="#A9BEDA" font-size="9" text-anchor="middle">Rank</text>
+  <rect x="508" y="264" width="62" height="52" rx="7" fill="#263C59"/><text x="539" y="286" fill="#BFDBFE" font-size="15" text-anchor="middle" font-weight="700">03</text><text x="539" y="302" fill="#A9BEDA" font-size="9" text-anchor="middle">Explain</text>
+ </g>
+ <text x="364" y="347" fill="#DCEBFF" font-size="12" font-weight="700">18 documented deterministic rules</text><text x="364" y="367" fill="#9BB2D0" font-size="10">Evidence ranking, not a trained classifier</text>
+ <rect x="364" y="385" width="210" height="25" rx="6" fill="#2A3447"/><text x="469" y="402" fill="#C9D4E4" font-size="9" font-weight="700" text-anchor="middle">NO MODEL-SCORED PROBABILITY CLAIM</text>
+ <path d="M598 305H632" stroke="#93C5FD" stroke-width="2" stroke-dasharray="4 4"/><path d="M624 297l9 8-9 8" fill="none" stroke="#93C5FD" stroke-width="2"/>
+ <text x="644" y="165" fill="#BFDBFE" font-size="11" font-weight="700" letter-spacing="1.2">03 / ACTIONABLE RESULT</text>
+ <rect x="640" y="182" width="264" height="246" rx="12" fill="#121D30" stroke="#597A9F"/>
+ <rect x="658" y="201" width="228" height="48" rx="8" fill="#19374B"/><text x="676" y="222" fill="#DDF7FF" font-size="12" font-weight="700">Diagnosis summary</text><text x="676" y="238" fill="#9ECAD9" font-size="10">Matched rule + reasoning chain</text>
+ <g><circle cx="669" cy="275" r="4" fill="#86EFAC"/><text x="684" y="279" fill="#DCE6F3" font-size="11">Likely cause</text><path d="M684 286H866" stroke="#344A65"/><circle cx="669" cy="313" r="4" fill="#67E8F9"/><text x="684" y="317" fill="#DCE6F3" font-size="11">Evidence and source lines</text><path d="M684 324H866" stroke="#344A65"/><circle cx="669" cy="351" r="4" fill="#FBBF24"/><text x="684" y="355" fill="#DCE6F3" font-size="11">Suggested corrective actions</text></g>
+ <rect x="658" y="377" width="228" height="31" rx="7" fill="#20314B"/><text x="772" y="397" fill="#C9DDF6" font-size="10" font-weight="700" text-anchor="middle">BROWSER HISTORY · LOCALSTORAGE</text>
+ <rect x="54" y="442" width="850" height="27" rx="7" fill="#16273B" stroke="#48627F"/><text x="70" y="460" fill="#C4DDF9" font-size="10">React · TypeScript · Vite · Tailwind · Node.js native type stripping · single service deployment</text>
+</g>
+<path d="M54 484H906" stroke="#526079" stroke-opacity=".55"/><text x="54" y="504" fill="#7D8BA4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="10" letter-spacing="1.2">REPOSITORY-DOCUMENTED SYSTEM MAP · ILLUSTRATIVE, NOT A PRODUCT SCREENSHOT</text>
+</svg>
